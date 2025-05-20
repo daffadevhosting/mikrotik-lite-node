@@ -3,6 +3,7 @@
 Lite Node.js library to communicate with MikroTik RouterOS via API port (8728).
 
 ## 🧱 Struktur Dasar Library
+```pgsql
 mikrotik-lite-node/
 ├── src/
 │   ├── client.js         # TCP client handler
@@ -13,6 +14,7 @@ mikrotik-lite-node/
 │       └── ...           
 ├── index.js              # Main API
 ├── package.json
+```
 
 ## Features
 - Lightweight & modular
