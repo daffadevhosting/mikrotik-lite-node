@@ -11,15 +11,23 @@ mikrotik-lite-node/
 │   ├── command.js        # Command encode/decode logic
 │   └── menus/
 │       ├── hotspot.js    # Abstraksi per menu
-│       └── ...           
+│       └── ...          
+├── public/ 
+│   ├── index.html        # login form / info device
+│   └── ...  
 ├── index.js              # Main API
 ├── package.json
 ```
 
 ## Features
 - Lightweight & modular
-- New Login Method v6+ - v7
+- New Login Method v6+ / v7
 - Send commands and parse basic responses
+
+```bash
+npm install
+npm run dev
+```
 
 ## Example
 ```js
